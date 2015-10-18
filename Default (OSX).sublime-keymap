@@ -1,4 +1,7 @@
 [
+	// MACROS
+	{ "keys" : ["super+;"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/function-semicolon.sublime-macro" } },
+
 	// Alignment plugin
 	{ "keys": ["super+alt+a"], "command": "alignment" },
 
