@@ -1,0 +1,48 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"AutoFileName",
+		"Better CoffeeScript",
+		"Block Cursor Everywhere",
+		"BracketHighlighter",
+		"CodeComplice",
+		"Color Highlighter",
+		"CSS3",
+		"DocBlockr",
+		"Dotfiles Syntax Highlighting",
+		"EditorConfig",
+		"Emmet",
+		"HTML-CSS-JS Prettify",
+		"Jade",
+		"JavaScript Snippets",
+		"JavaScriptNext - ES6 Syntax",
+		"jQuery",
+		"jQuery Snippets pack",
+		"JSCS-Formatter",
+		"List stylesheet variables",
+		"Nettuts+ Fetch",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"Predawn",
+		"Pretty JSON",
+		"Sass",
+		"SCSS",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jscs",
+		"SublimeLinter-jshint",
+		"Theme - Cobalt2",
+		"TodoReview",
+		"Vintageous"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"files":
+	{
+		"jquery": "http://code.jquery.com/jquery.min.js",
+		"modernizer": "http://modernizr.com/downloads/modernizr-latest.js",
+		"normalize.css": "http://necolas.github.io/normalize.css/latest/normalize.css"
+	},
+	"packages":
+	{
+		"Initializr": "http://www.initializr.com/builder?boot-hero&jquerymin&h5bp-iecond&h5bp-chromeframe&h5bp-analytics&h5bp-htaccess&h5bp-favicon&h5bp-appletouchicons&h5bp-scripts&h5bp-robots&h5bp-humans&h5bp-404&h5bp-adobecrossdomain&modernizrrespond&boot-css&boot-scripts",
+		"html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master"
+	}
+}
