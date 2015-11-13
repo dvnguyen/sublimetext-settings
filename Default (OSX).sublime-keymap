@@ -1,10 +1,14 @@
 [
 	// MACROS
 	//=======
+
 	{ "keys": ["super+;"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/function-semicolon.sublime-macro" } },
+	{ "keys": ["super+shift+;"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/end-line-semicolon.sublime-macro" } },
+	{ "keys": ["super+'"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/multiline-php.sublime-macro" } },
 
 	// LAYOUTS
 	// =======
+
 	{
 		"keys": ["super+alt+right"],
 		"command": "set_layout",
