@@ -23,6 +23,7 @@
 	"ignored_packages":
 	[
 		"CSS",
+		"JavaScript Snippets",
 		"vintage"
 	],
 	"indent_guide_options":
