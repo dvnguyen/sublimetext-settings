@@ -2,17 +2,14 @@
 	{
 		"args":
 		{
-			"characters": "\n"
-		},
-		"command": "insert"
-	},
-	{
-		"args":
-		{
 			"by": "characters",
 			"forward": true
 		},
 		"command": "move"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
 	},
 	{
 		"args": null,
@@ -28,13 +25,8 @@
 	{
 		"args":
 		{
-			"by": "lines",
-			"forward": false
+			"file": "res://Packages/Default/Add Line Before.sublime-macro"
 		},
-		"command": "move"
-	},
-	{
-		"args": null,
-		"command": "reindent"
+		"command": "run_macro_file"
 	}
 ]
