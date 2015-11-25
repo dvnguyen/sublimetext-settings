@@ -7,6 +7,7 @@
 	[
 		"AdvancedNewFile",
 		"Alignment",
+		"AlignTab",
 		"AutoFileName",
 		"Babel",
 		"Better CoffeeScript",
@@ -19,7 +20,6 @@
 		"Dotfiles Syntax Highlighting",
 		"EditorConfig",
 		"Emmet",
-		"Evernote",
 		"FindKeyConflicts",
 		"HTML-CSS-JS Prettify",
 		"Jade",
@@ -43,6 +43,7 @@
 		"SublimeLinter-csslint",
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
+		"SyncedSideBar",
 		"Theme - Cobalt2",
 		"TodoReview",
 		"Vintageous"
