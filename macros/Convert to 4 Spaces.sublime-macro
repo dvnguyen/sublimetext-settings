@@ -1,0 +1,7 @@
+// Convert 2 spaces to 4 spaces
+[
+  { "args": null, "command": "select_all" },
+  { "args": { "set_translate_tabs": true }, "command": "unexpand_tabs" },
+  { "args": { "setting": "tab_size", "value": 4 }, "command": "set_setting" },
+  { "args": { "set_translate_tabs": true }, "command": "expand_tabs" }
+]
