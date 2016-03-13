@@ -44,15 +44,33 @@
 	// Alignment Plugin
 	{ "keys": ["super+alt+a"], "command": "alignment" },
 
+	// Color Highlighter Plugin
+	{
+		"keys": ["super+shift+x"],
+		"command": "color_convert",
+		"context": [
+			{
+				"key": "color_highlighter.color_convert"
+			}
+		]
+	},
+
 	// Emmet Plugin
 	{
-    "keys": ["super+alt+r"],
-    "args": {"action": "reflect_css_value"},
-    "command": "run_emmet_action",
-    "context": [
-        {
-            "key": "emmet_action_enabled.reflect_css_value"
-        }
-    ]
-	}
+	    "keys": ["super+alt+r"],
+	    "args": {"action": "reflect_css_value"},
+	    "command": "run_emmet_action",
+	    "context": [
+	        {
+	            "key": "emmet_action_enabled.reflect_css_value"
+	        }
+	    ]
+	},
+
+	// REINFORCE DEFAULT KEYS
+	// ======================
+	// This section is added to remap default keys overwritten by plugins
+
+	// Conflicts with the Color Highluter Plugin
+	{ "keys": ["super+shift+a"], "command": "expand_selection", "args": {"to": "tag"} }
 ]
