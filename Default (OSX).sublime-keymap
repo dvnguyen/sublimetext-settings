@@ -6,6 +6,7 @@
 	{ "keys": ["super+shift+;"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/function-semicolon.sublime-macro" } },
 	{ "keys": ["super+'"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/multiline-php.sublime-macro" } },
 
+
 	// LAYOUTS
 	// =======
 
@@ -32,6 +33,13 @@
 	{ "keys": ["alt+2"], "command": "move_to_group", "args": { "group": 1 } },
 	{ "keys": ["alt+3"], "command": "move_to_group", "args": { "group": 2 } },
 	{ "keys": ["alt+4"], "command": "move_to_group", "args": { "group": 3 } },
+
+
+	// NEW KEY BINDINGS
+	// ================
+
+	// Reindenting Code blocks
+	{ "keys": ["super+shift+r"],  "command": "reindent" },
 
 
 	// REMAPPED KEYS
@@ -67,9 +75,10 @@
 	    ]
 	},
 
+
 	// REINFORCE DEFAULT KEYS
-	// ======================
 	// This section is added to remap default keys overwritten by plugins
+	// ======================
 
 	// Conflicts with the Color Highluter Plugin
 	{ "keys": ["super+shift+a"], "command": "expand_selection", "args": {"to": "tag"} }
