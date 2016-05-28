@@ -1,0 +1,9 @@
+[
+  {
+    "jscs_path": {
+      "windows": "%APPDATA%/npm/node_modules/jscs/bin/jscs",
+      "linux": "/usr/bin/jscs",
+      "osx": "/Users/dvnguyen/.npm-packages/bin/jscs"
+    }
+  }
+]
