@@ -1,10 +1,17 @@
 {
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 50,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "ng-controller=\"*",
+			"selector": "punctuation.definition.string"
+		}
+	],
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
-	"caret_extra_width": 3,
+	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"detect_slow_plugins": false,
@@ -21,15 +28,15 @@
 		"CVS"
 	],
 	"font_face": "Operator Mono",
-	"font_size": 13.0,
+	"font_size": 12.0,
 	"highlight_line": "true",
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"CodeComplice",
 		"CSS",
 		"JavaScript Snippets",
-		"vintage"
+		"vintage",
+		"Vintageous"
 	],
 	"indent_guide_options":
 	[
@@ -40,7 +47,7 @@
 	"line_padding_top": 1,
 	"rulers":
 	[
-		100
+		80
 	],
 	"sidebar_font_small": true,
 	"sidebar_medium": true,
