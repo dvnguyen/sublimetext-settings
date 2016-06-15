@@ -1,0 +1,16 @@
+<snippet>
+    <content>var ${1:MODULE} = (function ${2:myFunc}() {
+  'use strict';
+
+  var ${3:module} = {};
+
+  ${4}
+
+  return ${3:module};
+})();</content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>jsmod</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>JS Module Pattern</description>
+</snippet>

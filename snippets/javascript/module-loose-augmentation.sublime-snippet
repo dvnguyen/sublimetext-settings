@@ -1,0 +1,14 @@
+<snippet>
+    <content>var ${1:MODULE} = (function ${2:myFunc}(${3:module}) {
+  'use strict';
+
+  ${4}
+
+  return ${3:module};
+})(${1:MODULE} || {});</content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>jslaugmod</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>JS Module Loose Augmentation</description>
+</snippet>

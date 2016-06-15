@@ -1,0 +1,18 @@
+<snippet>
+    <content>var _private = ${1:module}._private = ${1:module}._private || {};
+var _seal = ${1:module}._seal = ${1:module}._seal || function() {
+    delete ${1:module}._private;
+    delete ${1:module}._seal;
+    delete ${1:module}._unseal;
+};
+var _unseal = ${1:module}._unseal = ${1:module}._unseal || function() {
+    ${1:module}._private = _private;
+    ${1:module}._seal = _seal;
+    ${1:module}._unseal = _unseal;
+};</content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cfps</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>Cross-File Private State</description>
+</snippet>
