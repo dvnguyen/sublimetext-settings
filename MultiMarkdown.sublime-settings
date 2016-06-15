@@ -1,6 +1,13 @@
 {
-  "rulers": [
+  "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+  "draw_centered": true,
+  "font_size": 13.0,
+  "gutter": true,
+  "ignored_packages":
+  [
+    "Color Highlighter"
   ],
+  "spell_check": true,
   "translate_tabs_to_spaces": true,
   "tab_size": 4,
   "word_wrap": true
